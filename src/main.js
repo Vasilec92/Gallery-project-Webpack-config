@@ -15,7 +15,6 @@ import movie2 from "./media/video/2.mp4";
 const blockWidth = "400px";
 const container = document.querySelector(".container");
 
-const imageList = [img1, img2, img3, img4];
 const data1 = [
   { img: img1, title: "природа" },
   { img: img2, title: "лес" },
@@ -78,5 +77,3 @@ data3.forEach((item, ind) => {
   div.appendChild(title);
   document.querySelector(".row").appendChild(div);
 });
-
-console.log("WoW");
